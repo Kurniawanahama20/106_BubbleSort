@@ -16,4 +16,14 @@ void input() {
             cout << "\nArray dapat mempunyai maksimal 20 elemen.\n";
         }
     }
+    cout <<endl;
+    cout << "====================" << endl;
+    cout << "Masukan Elemen Array" << endl;
+    cout << "====================" << endl;
+
+    for (int i = 0; i < n; i++) {
+        cout << "data ke-" << (i + 1) << ": ";
+        cin >> arr[i];
+    }
+
 }
